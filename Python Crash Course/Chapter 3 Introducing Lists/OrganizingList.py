@@ -9,10 +9,9 @@ print(cars)
     # adding 'reverse=True/False' will sort the list in reverse-alphabetical order
 cars.sort(reverse=True)
 print(cars)
-print("\n")
 
 # Sorting a list Temporarily with the sorted() Function
-topic = "* Sorting a list Temporarily with the sorted() Function"
+topic = "\n* Sorting a list Temporarily with the sorted() Function"
 print(topic)
 cars = ['bmw', 'audi', 'honda', 'toyota']
 print(f"Here is the original list: {cars}")
