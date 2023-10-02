@@ -25,3 +25,38 @@ cars = ['bmw', 'honda', 'audi', 'tesla']
 print(f"Original lists: {cars}")
 cars.reverse()
 print(f"Reversed Order: {cars}")
+
+# Finding the Length of a List
+topic = "\n* Finding the Length of a List"
+print(topic)
+cars = ['bmw', 'audi', 'honda', 'toyota']
+print(len(cars))
+
+# 3-8. Seeing the World.
+topic = "\n3-8. Seeing the World."
+print(topic)
+
+places = ['japan', 'mexico', 'italy', 'france', 'germany']
+print(f"Original List: {places}")
+print(f"Sorted List: {sorted(places)}")
+print(f"Original List: {places}")
+print(f"Reversed Sorted List: {sorted(places, reverse=True)}")
+print(f"Original List: {places}")
+places.reverse()
+print(f"Reversed List: {places}")
+places.sort()
+print(f"Sorted List: {places}")
+
+# 3-9. Dinner Guests.
+topic = "\n3-9. Dinner Guests."
+print(topic)
+guest = ['aaliyah', 'denzel washington', 'jennifer', 'king david', 'joe', 'lino']
+print(len(guest))
+
+# 3-10. Every Function.
+topic = "\n3-10. Every Function."
+print(topic)
+del guest[1]
+guest.append('jonathan')
+guest.insert(3, 'jack')
+print(guest)
